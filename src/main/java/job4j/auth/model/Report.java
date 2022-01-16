@@ -4,6 +4,7 @@ import java.sql.Timestamp;
 import java.util.Objects;
 
 public class Report {
+
     private int id;
     private String name;
     private Timestamp created;

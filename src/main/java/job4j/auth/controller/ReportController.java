@@ -54,4 +54,5 @@ public class ReportController {
         rest.delete(API_ID, id);
         return ResponseEntity.ok().build();
     }
+
 }
