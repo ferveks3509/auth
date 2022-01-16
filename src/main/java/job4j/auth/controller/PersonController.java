@@ -13,6 +13,7 @@ import java.util.stream.StreamSupport;
 @RestController
 @RequestMapping("/person")
 public class PersonController {
+
     private final PersonRepository persons;
 
     public PersonController(final PersonRepository persons) {
